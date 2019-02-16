@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Homework 9</title>
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="griddemo.css">
+    </head>
+
+<body>
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand logo" href="firstpage.html">
+                                <span class="nav-color"><header><strong>Latitude</strong></header></span></a>
+                    </div>
+        
+                    <div class="nav navbar-nav navbar-right">
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button">Plots<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="temperature.html">Max Temperature</a></li>
+                                <li><a href="humidity.html">Humidity</a></li>
+                                <li><a href="cloudiness.html">Cloudiness</a></li>
+                                <li><a href="wind_speed.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="comparison.html"> Comparison</a></li>
+                        <li><a href="weatherdata.html"> Data</a></li>                                           
+                    </div>
+                </div>      
+            </nav>
+        <main class="container">
+                <section id="description">
+                  <section id="figure">
+                    <h1 id="Latitude">Summary: Latitude vs X 
+                    </h1>
+                    <img id="max-temp" src="figure1.png" alt="Latitude vs Max Temperature">
+                  </section>
+                  <p id = "paragraph">This project analyzes changes in weather towards and away from the equator. Data from OpenWeatherMap API was used to accumulate info for over 500 cities.
+                        We used pandas to convert the data into a dataframe, and then matplotlib to graph latitude against temperature, humidity, cloudiness, and wind speed. Overall, the temperature is at the highest between 0 and 20 latitude, when the latitude starts to increase, the temperature decreases. At latitudes below 0, the temperature stays fairly high but starts to decrease as the latitude gets farther away from 0.
+                        Latitude does not have much of an effect on cloudiness, wind speed, or humidity. Finally, humidity values are mostly high, with many close to 100. Cloudiness values are more spread from 0 to 100, but more values tend to be closer to 0. Most wind speed values are 10 or under, with very few wind speeds being above 25.</p>
+                </section>
+        <aside id = "Visualizations"> 
+            <h2> Visualizations 
+            </h2>
+        </asideid>
+            <img id = "wind-speed" src = figure4.png alt = "wind-speed">
+            <img id = "cloudiness" src = figure2.png alt = "cloudiness">
+            <br>
+            <img id = "humidity" src = figure3.png alt = "humidity">
+            <img id = "temp" src = figure1.png alt= "max-temp">
+        
+    
+
+
+
+    
+
+
+
+
+</body>
+

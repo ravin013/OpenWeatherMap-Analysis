@@ -1,0 +1,66 @@
+h1 {color: blue;
+font-size: 25px;}
+
+
+strong {font-size: 40px;
+color:white; background-color: blue; position: absolute; top: 10%;
+right: 85%; background-size: 80px
+}
+
+
+/* Selecting elements by class */
+.container {
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+/* Selecting elements by ID */
+#max-temp {
+  float: left; 
+  width: 600px;
+  height: 400px;
+  margin-right: 20px;
+  position: Absolute;
+  left: -400px;
+  top: 175px;
+}
+
+#figure {
+  position: absolute;
+}
+
+#Latitude {
+  position: absolute;
+  top: 125px;
+  left:-225px;
+  width:300px;
+}
+
+#description {
+  width: 40%;
+  position: relative;
+}
+
+#paragraph {position: absolute;
+text-align: justify; 
+left: 200px; top: 150px; width: 80%}
+
+#wind-speed,
+#cloudiness,
+#humidity,
+#temp
+{position:relative; 
+  width: 250px;
+  height: 200px;
+  left: -175px;
+  }
+
+#Visualizations { float:right;
+  color: blue;
+  font-size: 25 px;
+  position: absolute;
+  top: 200px;
+  right: -100px;
+ }
+ 
